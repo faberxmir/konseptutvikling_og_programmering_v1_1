@@ -4,7 +4,7 @@ _av Geir Hilmersen_
 
 **Velkommen**
 
-Her vil du finne alle oppgaver som det er forventet at du skal kunne løse for å få toppkarakter i faget
+Her vil du finne alle oppgaver som det er forventet at du skal kunne løse for å få toppkarakter i faget.
 Oppgavene vil legges ut som leksjoner, og du kan løse leksjonene hver for seg. 
 
   For å lære hvordan du bruker GIT og GITHUB kan du lese [her i git boka](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
