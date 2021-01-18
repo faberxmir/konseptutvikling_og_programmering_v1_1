@@ -1,7 +1,8 @@
 # konseptutvikling_og_programmering_v1_1 
-## av Geir Hilmersen
+_av Geir Hilmersen_
 
-**Velkommen til faget konseptutvikling og programmering**
+
+**Velkommen**
 
 Her vil du finne alle oppgaver som det er forventet at du skal kunne løse for å få toppkarakter i faget
 Oppgavene vil legges ut som leksjoner, og du kan løse leksjonene hver for seg. 
@@ -20,7 +21,7 @@ til
 
 <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc"> Net Ninja - Javascript </a>
 
-  #Hvordan bli god i programmering
+  # Hvordan bli god i programmering
   Programmer mye. Når du synes det er lett, så må du lære
   deg noe nytt! Så programmerer du mer, helt til du synes
   det nye du lærte deg er lett, så må du lære noe nytt!
