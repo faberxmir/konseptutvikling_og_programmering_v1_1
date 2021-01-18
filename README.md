@@ -1,6 +1,7 @@
-# konseptutvikling_og_programmering_v1_1 av Geir Hilmersen
+# konseptutvikling_og_programmering_v1_1 /nav Geir Hilmersen
 
 **Velkommen til faget konseptutvikling og programmering**
+
 Her vil du finne alle oppgaver som det er forventet at du skal kunne løse for å få toppkarakter i faget
 Oppgavene vil legges ut som leksjoner, og du kan løse leksjonene hver for seg. 
 
