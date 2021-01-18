@@ -9,8 +9,7 @@ Oppgavene vil legges ut som leksjoner, og du kan løse leksjonene hver for seg.
 
   For å lære hvordan du bruker GIT og GITHUB kan du lese her:
   
-  <a href=https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>git boka</a>
-
+  [git boka](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 Du kan selv velge hvilke læringskilder du vil bruker for faget, 
 men jeg anbefaler på det sterkeste at du følger youtube kurset 
 til 
