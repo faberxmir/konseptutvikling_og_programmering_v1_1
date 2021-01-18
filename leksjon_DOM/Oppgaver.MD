@@ -3,7 +3,7 @@
 Denne leksjonen bygger på denne videoen på youtube:
 <a href="https://www.youtube.com/watch?v=wKBu_dEaF9E&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc&index=6"> Net Ninja - DOM Object </a>
 
-Sett opp grunnleggende infrastruktur for oppgaven;
+**Sett opp grunnleggende infrastruktur for oppgaven;**
     * guessgame.html
         * lenke til .css
         * lenke til .js
@@ -14,12 +14,12 @@ sjekk at det virker før du begynner.
 
 
 <h3>OPPGAVE 1</h3>
-    _Lag et form på guessgame.html siden siden din med følgende elementer;_
-        *h1 med teksten Guess a number between 0-100
-        *input text skal være tom når siden åpner
-        *p class=feedback skal være ..make your guess, når siden åpner
-    _Under form skal du lage;_
-        *p instructions. Der skal det stå "Press any letter to restart the game"
+**Lag et form på guessgame.html siden siden din med følgende elementer;**
+    *h1 med teksten Guess a number between 0-100
+    *input text skal være tom når siden åpner
+    *p class=feedback skal være ..make your guess, når siden åpner
+__Under form skal du lage;__
+    *p instructions. Der skal det stå "Press any letter to restart the game"
     
 <h3>OPPGAVE 2</h3>
     _Lag en .css som får siden din til å se litt ryddig ut_ 
