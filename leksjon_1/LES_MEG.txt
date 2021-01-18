@@ -1,0 +1,16 @@
+Disse leksjonene bygger på "The Net Ninja " - Shaun Pelling sin "Modern Javascript tutorial".
+lenke: https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc
+
+All kunnskapen du trenger for å løse disse oppgavene ligger der. Følg denne fremgangsmåten;
+-les oppgavene
+-se videone
+-løs oppgavne og se videone på nytt om det er noe du glemte.
+
+Resten av kurset ligger på www.udemy.com og er ofte på tilbud. Fullfører du hele kurset har
+du kommet langt og mestret mange av de mest utfordrende programmeringskonseptene.
+
+Lykke til!
+
+med vennlig hilsen
+
+Geir Hilmersen

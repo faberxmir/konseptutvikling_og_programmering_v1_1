@@ -1,0 +1,28 @@
+//Geir Hilmersen - 16 Januar 2021
+
+/*
+    Når du løser oppgaver i denne serien vil jeg at du skal skrive navnet ditt og datoen du laget filen øverst på siden, 
+    sånn som jeg har gjort over her. Det er god skikk. Når du gjør endringer er det vanlig å skrive det under, men 
+    akkurat nå er det viktigste at det er lettere for meg å rette oppgavene dine når jeg vet hvem som har skrevet den.
+*/
+
+OPPGAVE 1
+    Last ned og installer "Visual Studio Code": https://visualstudio.microsoft.com/downloads/
+    Installer "Live Server"
+
+OPPGAVE 2
+    Lag en enkel html side med en h1 tag som har teksten "Hello Live Server!"
+    Sjekk at "Live Server" virker. Mens du ser på skjermen, endre html filen
+    din og lagre. Hvis Live Server virker, så skal siden oppdateres "on the fly"
+    Hvis ikke må du feilsøke og se hva som gikk galt.
+
+OPPGAVE 3
+    Lag en javascript fil i samme mappe som heter "script.js"
+    Lag en script tag med en lenke til "script.js"
+    I "script.js" skriv;
+        console.log('Hello JavaScript');
+    Åpne nettleseren din og trykk;
+        windows:    ctrl+shift+i
+        mac:        cmd+opt+i
+    Trykk så på "console" og se etter om det ikke står "Hello JavaScript" der.
+
