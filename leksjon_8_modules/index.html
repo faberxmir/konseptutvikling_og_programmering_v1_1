@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./CSS/style.css">
+    <title>Moduler</title>
+</head>
+<body>
+    <h1>Moduler</h1>
+    <p>
+        Moduler er ganske nytt i JavaScript verden og støttes faktisk ikke av alle nettlesere.
+        Du kan se hvilke nettlesere som støtter moduler her: <a href="https://caniuse.com/?search=modules">caniuse.com</a>
+        Fordi behovet for mer og mer funksjonalitet øker i nettlesere, så blir også JavaScript mer og mer avansert.
+        I fremtiden kan du nok regne med at moduler blir en standard! Det er det ihvertfall i alle andre programmeringsspråk.
+    </p>
+    <h2>Oppgave 1</h2>
+    <ul>
+        <li>Lag følgende filer; </li>
+        <ul>
+            <li><em>'index.html'</em></li>
+            <li><em>'./css/styles.css</em></li>
+            <li><em>'./scripts/main.js'</em></li>
+            <li><em>'./scripts/math.js'</em></li>
+        </ul>
+    </ul>
+    <h2>Oppgave 2 - index.html</h2>
+    Lag det som står under på index.html
+    <div class="calculator">
+        <h3>Grunnleggende regnearter ( + - / *)</h3>
+        <input type="number" name="numberfield" id="numberfield" placeholder="type a number">
+        <p class="calc_answer" id="outputfield">utregningsfelt for kalkulatoren</p>
+    </div>
+
+    <h2>Oppgave 3 - style.css</h2>
+    <p>Lag CSS som gjør siden din litt mer ryddig, men ikke bruk så mye tid på dette. Det er ikke det du burde fokusere på.</p>
+
+    <h2>Oppgave 4 - main.js</h2>
+    <p>Lag en lenke til main.js filen din og lag følgende funksjonalitet;
+        <ul>
+            <li>du skal ha en lytter på inputfeltet som leser inn tastetrykk.</li>
+            <li>Tastetrykkene skal lageres som variabler, men foreløpig trenger du ikke gjøre noe med dem.</li>
+            <li>Lag en funksjon som gjør det mulig for deg å lage utskrift til utregningsfeltet i kalkulatoren</li>
+        </ul>
+    </p>
+    <h2>Oppgave 5 - math.js</h2>
+    <p>
+        <em>math.js</em> skal håndtere den faktiske utregningen av matten du gjør. Filen skal i utgangspunktet ha fire funksjoner;
+        <ul>
+            <li>mulitply</li>
+            <li>divide</li>
+            <li>add</li>
+            <li>subtract</li>
+        </ul>
+        Alle funksjonene skal ha to parametere, <em>a</em> og <em>b</em> som de skal utføre sin respektive regneoperasjon på, og de
+        skal <em>returnere</em> svaret. 
+    </p>
+    <h2>Oppgave 6 - keyhandler.js</h2>
+    <p>
+        <em>keyhandler.js</em> skal håndtere tastetrykkene dine og sørge for at kalkulatoren din skiller mellom tastetrykk
+        som er tall, tastetrykk som er *, /, + og -, eller andre tastetrykk. Alle andre tastettrykk skal ignoreres.
+        <ul>
+            <li>når brukeren skriver et tall skal tallet komme frem i tallfeltet</li>
+            <li>når brukeren skriver /, *, -, eller + skal IKKE tegnet komme frem i feltet, men;
+                <ul>
+                    <li>tallet som står der skal slettes</li>
+                    <li>utregningsfeltet skal oppdateres slik at tallet som var i tallfeltet blir stående der <em>med</em> tegnet som ble trykket bak</li>
+                    <li>Hvis det allerede står en delutregning i utregningsfeltet, så skal kalkulatoren regne ut svaret</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <script type="module" src="./script/main.js"></script>
+</body>
+</html>

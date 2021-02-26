@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(231, 239, 255);
+    width: 75ch;
+    margin: 2% auto;
+}
+
+p{
+    padding: 1.5ch;
+    border-radius: 5px;
+}
+
+p, ul{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.calculator{
+    padding: 1ch;
+    border-style: solid;
+    border-color: hotpink;
+    width: 60ch;
+    margin: 2ch auto;
+    background-color: lawngreen;
+}
+
+.calculator p, input{
+    display: block;
+    border-radius: 0;
+    width: 90%;
+    padding: 0.5ch;
+    margin: 1ch auto;
+    text-align: center;
+}
+
+.calculator h3{
+    text-align: center;
+}
+
+.calculator p {
+    background-color: lemonchiffon;
+    color: rgb(103, 87, 170);
+    text-align: center;
+}
