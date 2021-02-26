@@ -1,7 +1,8 @@
 body{
-    background-color: rgb(231, 239, 255);
+    background-color: rgb(7, 15, 32);
     width: 75ch;
-    margin: 2% auto;
+    margin: 0 auto;
+    font-size: 1.4em;
 }
 
 p{
@@ -9,17 +10,28 @@ p{
     border-radius: 5px;
 }
 
-p, ul{
+.oppgave,
+.info {
+    background-color: mintcream;
+    padding: 0.2em 1em;
     margin: 0;
-    background-color: rgb(255, 255, 255);
-
+    margin-top: 1.5em;
+    border-radius: 0.3em;
+    color:rgb(119, 87, 55);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+h1, h2 {
+    color: rgb(92, 62, 32);
+}
+
+
 
 .calculator{
     padding: 1ch;
     border-style: solid;
     border-color: hotpink;
-    width: 60ch;
+    width: 90%;
     margin: 2ch auto;
     background-color: lawngreen;
 }
