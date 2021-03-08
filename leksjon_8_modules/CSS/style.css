@@ -16,16 +16,44 @@ p{
     padding: 0.2em 1em;
     margin: 0;
     margin-top: 1.5em;
-    border-radius: 0.3em;
-    color:rgb(119, 87, 55);
+    border-radius: 0 0.5em 0.5em  0;
+    border-left-style: double;
+    border-left-width: 20px;
+    border-bottom-color: rgba(18, 32, 23, 0.849);
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border-right-color:  rgba(18, 32, 23, 0.849);
+
+    border-left-color: brown;
+    color:rgb(61, 19, 19);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(126, 252, 0, 0.657) 0px 0px 10px 10px;
+    margin-top: 4em;
+}
+
+.oppgave:hover {
+    box-shadow: rgba(0, 76, 252, 0.657) 10px 5px 30px 15px;
+    color: green;
+    transition: 0.4s;
 }
 
 h1, h2 {
-    color: rgb(92, 62, 32);
+    position: relative;
+    top: -1.5em;
+    display: inline-block;
+    border-radius: 1em;
+    padding: 0.5em;
+    position: relative;
+    position: -10;
+    color: brown;
+    background-color: mintcream;
+    border-bottom-style: inset;
 }
 
-
+p {
+    position: relative;
+    top: -4em;
+}
 
 .calculator{
     padding: 1ch;
@@ -37,6 +65,7 @@ h1, h2 {
 }
 
 .calculator p, input{
+    position: static;
     display: block;
     border-radius: 0;
     width: 90%;
