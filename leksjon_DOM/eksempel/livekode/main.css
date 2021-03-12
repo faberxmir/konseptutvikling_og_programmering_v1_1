@@ -75,3 +75,22 @@ ol {
     color: rgb(18, 93, 15);
     width: 12ch;
 }
+
+.highscoreinput {
+    position: fixed;
+    background-color: cadetblue;
+    display: block;
+    padding: 2em;
+    z-index: 10;
+    top: 200px;
+    left: 37.5em;
+    border-radius: 4em;
+    box-shadow: 5px 5px 50px rgb(160, 201, 235);
+    display: none;
+}
+
+.highscoreinput input{
+    width: 15ch;
+    font-size: 5ch;
+    margin: 1ch;
+}

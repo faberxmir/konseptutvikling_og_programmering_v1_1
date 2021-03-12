@@ -1,9 +1,10 @@
 const HIGHSCOREKEY = "highscore";
 const HIGHSCORELISTLENGTH = 3;
 
-const inputField = document.querySelector("input");
+const inputField = document.querySelector(".guessfield");
 const outputField = document.querySelector("#feedback");
 const timerField = document.querySelector("#timer");
+const highscoreinput = document.querySelector(".highscoreinput"); 
 
 let correctAnswer; 
 
@@ -49,6 +50,11 @@ inputField.addEventListener('input', event => {
     } else {
         clearInputField();
     }
+});
+
+highscoreinput.addEventListener('submit', (event)=>{
+    event.preventDefault();
+    console.log("Submitted!");
 });
 
 function generateAnswer(){
@@ -98,7 +104,7 @@ function checkForHighScore(user){
         let tempuser;
         for(let i = tempPosition; i >0; --i){
             tempuser= highscorelist[i-1]
-            highscorelist[i-1] = highscorelist[i];
+            //highscorelist[i-1] = highscorelist[i];
         }
         highscorelist[tempPosition].name = "GGG";
         highscorelist[tempPosition].guesses = 10;
@@ -143,7 +149,7 @@ function getHighScoreList(){
 }
 function renderHighScorelist(){
     let highscoreHTML = document.querySelector("#highscoreHTML"); 
-    highscorelist = getHighScoreList();;
+    highscorelist = getHighScoreList();
     let element;
     console.log(`highscorelist length: ${HIGHSCORELISTLENGTH}`);
     for(let i = 0; i < HIGHSCORELISTLENGTH; ++i){
