@@ -1,0 +1,47 @@
+*{ 
+    --pink: #f72585;
+    --blue: #4895ef;
+    --offwhite: #fefae0;
+    --darkblue: #03071e;
+}
+
+body{
+    background-color: var(--offwhite);
+    margin: 0;
+}
+
+header {
+    background-color: var(--darkblue);
+    color: var(--pink);
+    padding: 0 20px;
+}
+
+footer {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    height: 10%;
+    background-color: #03071e;
+}
+
+footer input {
+    position: relative;
+    display: block;
+    width: 50ch;
+    margin: 3ch auto;
+    font-size: 2ch;
+    text-align: center;
+}
+
+ul {
+    display: block;
+    width: 65ch;
+    background-color: #4895ef;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 5px 5px;
+}
+
+ul li{
+    margin: 0.5ch;
+}
