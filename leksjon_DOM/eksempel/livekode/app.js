@@ -1,27 +1,18 @@
-const input = document.querySelector("input");
-const output = document.querySelector("#feedback");
-const allowedInput = /0-9/;
-const correctAnswer = Math.round(Math.random()*100);
+// Javascript linkedlist
 
-input.addEventListener('keyup', (event) => {
+let linkedList = {position: null, name: null, score: null, next: null};
 
-});
 
-function checkForGuess(){
-    const inFieldValue = parseInt(input.innerHTML);
-    if(infieldValue > 11){
-        guess(infieldValue);
+insertIntoLinkedList(node){
+    let node = null;
+    let tempNode = linkedList;
+
+    if(position == null){ //only happens in list with no nodes.
+        linkedList == node;
+
+    } else {   
+        while(tempNode.next != null){
+            tempNode = tempNode.next;
+        }
     }
 }
-
-function guess(number){
-    return number === correctAnswer;
-}
-
-//check if number
-
-//check if high or low
-
-//give feedback
-
-//change css values

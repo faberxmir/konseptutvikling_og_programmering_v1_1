@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    
+    <script src="./scripts/app.js" defer></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>READ</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="./html/create.html">Create</a></li>
+            <li><a href="./html/read.html">Read</a></li>
+            <li><a href=".html/update.html">Update</a></li>
+            <li><a href="./html/delete.html">Delete</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <h1>READ - This page shows all the content of this Database</h1>
+        <p>
+            This page contacts the database and READ all it's content, then it formats and
+            display the content here:
+        </p>
+        <ul class="documents" id="studentdisplay">
+
+        </ul>
+    </div>
+</body>
+</html>
